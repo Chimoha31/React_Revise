@@ -2,6 +2,8 @@ import "../components/Expenses.css";
 import ExpenseItem from "../components/ExpenseItem";
 import Card from "../components/Card";
 
+conole.log('test');
+
 function Expenses(props) {
   const { items } = props;
 
