@@ -1,10 +1,9 @@
-import "../components/Expenses.css";
-import ExpenseItem from "../components/ExpenseItem";
-import Card from "../components/Card";
+import "../Expenses/Expenses.css";
+import ExpenseItem from "../Expenses/ExpenseItem";
+import Card from "../UI/Card";
 
-conole.log('test');
 
-function Expenses(props) {
+const Expenses =(props) => {
   const { items } = props;
 
   return (
